@@ -1,0 +1,128 @@
+body {
+	background-image: url('bookhomepage.jpg'); /*https://unsplash.com/photos/_-hjiem5TqI*/
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+
+h1 { /*creates the big title with the shadow for ChoateBooks*/
+	color: black;
+	font: bold 70px Helvetica;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin: 0px;
+	text-shadow: 5px 5px #6e8cd2; 
+	text-align: center;
+}
+
+input { /*makes the boxes look better and have a blue outline*/
+	width: 30%;
+	padding: 5px 5px;
+	margin-right: 0px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #6e8cd2;
+	background-color: #white;
+	color: black;
+	font: 20px Helvetica;
+}
+
+::placeholder { /*in the placeholder of the inputs the text is edited so that it is italiced and a different color*/
+	color: gray;
+	font: italic 20px Helvetica;
+}
+
+button { /*creates a much better button than the ugly default one*/
+	background-color: #6e8cd2;
+	color: black;
+	text-align: center;
+	padding: 6px 10px;
+	font: bold 20px Helvetica;
+	cursor: pointer;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+button:hover { /*when you hover over it the color of the text changes to white*/
+	color: white;
+}
+
+a { /*makes the link look like a button*/
+	background-color: #6e8cd2;
+	color: black;
+	text-align: center;
+	padding: 6px 10px;
+	font: bold 20px Helvetica;
+	cursor: pointer;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 8px;
+}
+
+a:hover { /*when you hover over it it also changes text to white*/
+	color: white;
+}
+
+
+#book { /*gives a mini header*/
+	text-align: left;
+	padding: 0px;
+	margin-top: 20px;
+	color: black;
+	font: bold 30px Helvetica;
+	text-shadow: 3px 3px #6e8cd2;
+}
+
+#pic { /*allows picture to not take up whole space but rather a quarter of the width*/
+	width: 25%;
+	height: auto;
+}
+
+#navigation { /*creates navigation bar*/
+	overflow: hidden;
+  	background-color: #6e8cd2;
+}
+
+#button { /*creates a button for the naviation bar*/
+	margin: 0px;
+	margin-left: 5px;
+	padding: 3px;
+	text-align: left;
+}
+
+.post { /*i made it into class because not only does each box need to be repetitive but so is the different texts inside the box*/
+	background-color: rgba(255, 255, 255, .7);
+	border-radius: 13px;
+	margin:5px;
+	padding:5px 10px;
+}
+
+.post h2 { /*for the title of book in the book listings*/
+	font: bold 27px Helvetica;
+	color: #6e8cd2;
+	padding: 0px;
+	margin: 0px;
+}
+
+.post h3 { /*for the author*/
+	color: black;
+	font: bold italic 20px Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+
+.post p { /*for description*/
+	color: black;
+	margin-top: 5px;
+	font: 17px Helvetica;
+	color: black;
+}
+
+.post h5 { /*for class and creator of post*/
+	color: black;
+	margin-top: 5px;
+	font: 15px Helvetica;
+}

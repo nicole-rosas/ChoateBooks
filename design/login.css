@@ -1,0 +1,70 @@
+/*look at home.css and this will make sense, its a lot of repetition but theres a good reason why they are seperated*/
+body {
+	background-image: url('bookhomepage.jpg'); /*https://unsplash.com/photos/_-hjiem5TqI*/
+	background-size: cover;
+	text-align: center;
+}
+
+input {
+	width: 20%;
+	padding: 10px 10px;
+	margin-right: 30px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #6e8cd2;
+	background-color: #white;
+	color: black;
+	font: 20px Helvetica;
+}
+
+::placeholder {
+	color: gray;
+	font: italic 20px Helvetica;
+}
+
+button {
+	background-color: #6e8cd2;
+	color: black;
+	text-align: center;
+	padding: 6px 10px;
+	font: bold 20px Helvetica;
+	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	color: white;
+}
+
+a {
+	padding: 0px;
+	margin-top: 0px;
+	color: black;
+	font: bold 20px Helvetica;
+}
+
+a:hover {
+	color:#6e8cd2;
+}
+
+#name {
+	color: black;
+	font: bold 70px Helvetica;
+	text-shadow: 5px 5px #6e8cd2; /*#0a1446; /*#ffb91e;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#slogan {
+	color: black;
+	font: bold 20px Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+
+#form {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}

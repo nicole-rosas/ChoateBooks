@@ -1,0 +1,94 @@
+/*look at home.css and this will make sense, its a lot of repetition but theres a good reason why they are seperated*/
+h1 {
+	color: black;
+	font: bold 70px Helvetica;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin: 0px;
+	text-shadow: 5px 5px #6e8cd2; /*#0a1446; /*#ffb91e;*/
+	text-align: center;
+}
+body {
+	background-image: url('bookhomepage.jpg'); /*https://unsplash.com/photos/_-hjiem5TqI*/
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+
+h2 {
+	text-align: left;
+	padding: 0px;
+	margin-top: 0px;
+	color: black;
+	font: bold 30px Helvetica;
+	text-shadow: 3px 3px #6e8cd2;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+textarea {
+	padding: 10px 10px;
+	/*box-sizing: border-box;*/
+	border-style: solid;
+	border-width: 3px;
+	border-color: #6e8cd2;
+	background-color: #white;
+	color: black;
+	font: 20px Helvetica;
+	margin-bottom: 8px;
+}
+
+::placeholder {
+	color: gray;
+	font: italic 20px Helvetica;
+}
+
+label {
+	font: bold 20px Helvetica;
+	color:black;
+}
+
+a {
+	margin-left: 10px;
+	background-color: #6e8cd2;
+	color: black;
+	text-align: center;
+	padding: 6px 10px;
+	font: bold 20px Helvetica;
+	cursor: pointer;
+	border: none;
+}
+
+a:hover {
+	color: white;
+}
+
+button {
+	background-color: #6e8cd2;
+	color: black;
+	text-align: center;
+	padding: 6px 10px;
+	font: bold 20px Helvetica;
+	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	color: white;
+}
+
+#text {
+	width: 400px;
+	height: 35px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #6e8cd2;
+	background-color: #white;
+	color: black;
+	font: 20px Helvetica;
+	margin-bottom: 8px;
+}

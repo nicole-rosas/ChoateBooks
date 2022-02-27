@@ -1,0 +1,79 @@
+/*look at home.css and this will make sense, its a lot of repetition but theres a good reason why they are seperated*/
+body {
+	background-image: url('bookhomepage.jpg'); /*https://unsplash.com/photos/_-hjiem5TqI*/
+	background-size: cover;
+	text-align: center;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 11px;
+	color: black;
+	font: bold 25px Helvetica;
+	text-shadow: 2px 2px #6e8cd2;
+}
+
+form {
+  padding: 12px 20px;
+  margin: 8px ;
+  border: none;
+  display: inline-block;
+}
+
+label {
+	font: bold 20px Helvetica;
+	color:black;
+}
+
+input {
+	width: 400px;
+	height: 35px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #6e8cd2;
+	background-color: #white;
+	color: black;
+	font: 20px Helvetica;
+	margin-bottom: 8px;
+}
+
+::placeholder {
+	color: gray;
+	font: italic 20px Helvetica;
+}
+
+button {
+	background-color: #6e8cd2;
+	color: black;
+	text-align: center;
+	padding: 6px 10px;
+	font: bold 20px Helvetica;
+	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	color: white;
+}
+
+#name {
+	color: black;
+	font: bold 70px Helvetica;
+	text-shadow: 5px 5px #6e8cd2; /*#0a1446; /*#ffb91e;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#text {
+	background-color: rgba(255, 255, 255, .7);
+	margin: 10px;
+	padding: 10px;
+	width: 50%;
+	color: black;
+	font: 18px Helvetica;
+	display: inline-block;
+}
