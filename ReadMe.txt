@@ -14,12 +14,12 @@ Sources:
 	for images going into database: https://makitweb.com/upload-and-store-an-image-in-the-database-with-php/
 
 Peer review:
-	Yolanda Wang (note:this was before the css)
+	Y. W. (note:this was before the css)
 		- I like the concept
 		- needs to look better lol
 		- maybe add a navigation bar for the user so that they dont have to click the back arrow to go back a lot of times
 
-	Sara Hishinuma
+	S. H.
 		- The photo in the background for the login page is good you should add it for the other pages too
 		- make sure that only choate emails are accepted and not other email domains
 		- can you make the buttons look better? they kind of dont match the theme
